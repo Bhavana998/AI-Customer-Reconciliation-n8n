@@ -32,37 +32,37 @@ This system automates the entire process using **workflow automation + AI-based 
 
 ```text
                 ┌────────────────────┐
-                │   Data Input       │
-                │ (Invoices, Payments|
-                │  Claims, Returns)  │
+                │   Data Input           │
+                │ (Invoices, Payments    |
+                │  Claims, Returns)      │
                 └─────────┬──────────┘
                           │
                           ▼
                 ┌────────────────────┐
-                │   n8n Workflow     │
-                │ (Automation Engine)│
+                │   n8n Workflow         │
+                │ (Automation Engine)    │
                 └─────────┬──────────┘
                           │
         ┌─────────────────┼─────────────────┐
         ▼                 ▼                 ▼
 ┌──────────────┐  ┌──────────────┐  ┌──────────────┐
-│ Data Matching│  │ AI Analysis  │  │ Validation   │
-│ & Processing │  |Classification│  │ Data Quality │
+│ Data Matching   │  │ AI Analysis    │  │ Validation      │
+│ & Processing    │  |Classification. │  │ Data Quality    │
 └──────────────┘  └──────────────┘  └──────────────┘
         │                 │                 │
         └────────────┬────┴────┬────────────┘
                      ▼         ▼
               ┌────────────────────┐
-              │ Reconciliation     │
-              │ Report Generation  │
+              │ Reconciliation         │
+              │ Report Generation      │
               └─────────┬──────────┘
                         │
                         ▼
         ┌─────────────────────────────────┐
-        │ Output                          │
-        │ • Report (Text)                 │
-        │ • Google Sheets                 │
-        │ • Insights & Actions            │
+        │ Output                                │
+        │ • Report (Text)                       │
+        │ • Google Sheets                       │
+        │ • Insights & Actions                  │
         └─────────────────────────────────┘
 ```
 
