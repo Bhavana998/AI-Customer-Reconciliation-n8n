@@ -33,7 +33,7 @@ This system automates the entire process using **workflow automation + AI-based 
 ```text
                 ┌────────────────────┐
                 │   Data Input       │
-                │ (Invoices, Payments,
+                │ (Invoices, Payments|
                 │  Claims, Returns)  │
                 └─────────┬──────────┘
                           │
